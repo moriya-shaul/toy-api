@@ -1,0 +1,43 @@
+body {
+    background-color: whitesmoke;
+  
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  th,.my-footer {
+    color: rgb(232, 8, 120);
+  }
+  
+  .bigDomain,
+  h2 {
+    font-size: 1.8em;
+    color: rgb(232, 8, 120);
+  }
+  
+  nav .myScale {
+    display: inline-block;
+    letter-spacing: 1px;
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+    transition: 1000ms;
+  }
+  
+  nav .myScale:hover {
+    transform: scale(1.2);
+    letter-spacing: 2px;
+    color: black;
+  }
+  
+  .text1 {
+    font-size: 1.3em;
+  }
+  
+  .copyBtn {
+    transition: 1000ms;
+    color: rgb(232, 8, 120);
+  }
+  
+  .copyBtn:hover {
+    transform: scale(1.2);
+  }
